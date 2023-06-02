@@ -1,0 +1,157 @@
+*{
+    color: white;
+}
+
+body{
+    background-image:
+    linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, 20)),
+        url(https://images.hdqwalls.com/wallpapers/league-of-legends-splash-art-w0.jpg);
+        margin: 0px;
+        height: 1500px; 
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: auto;
+        background-position: 2% 100%;
+        margin-right: 300px;
+
+    /* background-color: rgb(100, 100, 100); */
+    background-color: black;
+}
+
+
+nav{
+    background-color: rgb(22, 22, 22); 
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: transparent;
+}
+
+nav .logo{
+    
+    position: fixed;
+    margin: 16px 36px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+nav .menu ul{
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+    text-align: left;
+    margin: 0;
+    background-color: rgb(30, 30, 30);
+    padding-left: 10%;
+}
+
+nav .menu ul li{
+    display: inline-block;
+    padding: 20px;
+    background: transparent;
+}
+
+nav .menu ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+
+.Middle-format {
+    display: flex;
+    height: 700px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.landingmsg {
+    margin-top: 300px;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 5px 4px black;
+    color:#958daa;
+    padding-left: 230px;
+}
+
+
+
+
+
+.midbox {
+    margin-top: 20px;
+    justify-content: start;
+    margin-left: 455px;
+    display: flex;
+}
+
+nav .logo img{
+    position: relative;
+    top: -11px;
+    width: 95px;
+    left: 25px;
+}
+
+
+.appinfo {
+    display: flex;
+    justify-content: left;
+    position: relative;
+    top: 700px;
+    left: 300px;
+}
+
+#pic {
+    position: relative;
+    width: 300px;
+    top: -200px;
+    right: -100px;
+    opacity: 0.6;
+
+}
+
+.p {
+    position: relative;
+    right: -120px;
+    text-align: center;
+    bottom: -600px;
+    opacity: 0.5;
+    font-size: 15px;
+    top: 450px
+}
+
+#Search {
+
+    width: 400px;
+    height: 90px;
+    background-color: black;
+    border-radius: 30px;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: Montserrat;
+}
+
+#Search:hover {
+    opacity: 0.5;
+
+}
+
+#pic2 {
+    position: relative;
+    width: 300px;
+    top: -200px;
+    right: -100px;
+    opacity: 0.6;
+}
+
+.appinfo2 {
+    display: flex;
+    justify-content: right;
+    position: relative;
+    top: 600px;
+    right: 300px;
+}
