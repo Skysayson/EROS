@@ -1,0 +1,156 @@
+body {
+    background-color: #28252c;
+    font-family: sans-serif;
+    color: black;
+    background-image: url("https://images4.alphacoders.com/129/1291416.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlay:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3); /* change the opacity to adjust the darkness */
+    z-index: -1;
+  }
+
+
+.headerright {
+    justify-content:right;
+
+    font-size: 28px;
+    display:flex;
+    
+
+    
+}
+
+.box {
+
+    background-color: white;
+    margin:auto;
+    position: absolute;
+    top: -50px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 700px;
+    height: 750px;
+    border-radius:10px;
+
+}
+.create {
+
+    position:absolute;
+    left:650px;
+
+
+}
+#logo {
+    position: fixed;
+    top: 6px;
+    width: 95px;
+    padding-left: 37px;
+}
+  
+.headerright{
+    position:relative;
+    top:-75px;
+}
+
+.all {
+    position: absolute;
+    top:280px;
+    left: 650px;
+
+}
+
+input[type="text"] {
+    width: 250px;
+    height: 20px;
+    background-color: rgb(241, 241, 241);
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 14px;
+}
+
+.continue {
+    position:absolute;
+    left:420px;
+    bottom:55px;
+
+}
+
+.button {
+    background-color: #28252c;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position:relative;
+    left:14px;
+    bottom:-40px;
+  }
+  .button:hover {
+    background-color: #fff;
+    color: #28252c;
+  }
+  
+  .arrow {
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    position:relative;
+    left:-5px;
+    display: inline-block;
+    padding: 5px;
+    transform: rotate(315deg);
+    -webkit-transform: rotate(315deg);
+  }
+
+  input[name="Month"],
+  input[name="Day"],
+  input[name="Year"] {
+    margin-right: 10px;
+    width: 100px !important;
+  }
+  input[name="fname"],
+input[name="lname"] {
+  margin-right: 10px;
+}
+
+.user {
+  position:absolute;
+  top:-50px;
+}
+
+input[name="user"]{
+  margin-right:20px;
+
+}
+
+input[name="pass"]{
+position: absolute;
+left: 280px;
+
+}
+
+.u {
+  position:absolute;
+  top:-30px;
+}
+
+.p {
+  position:absolute;
+  top:-30px;
+  left:280px;
+}
+
