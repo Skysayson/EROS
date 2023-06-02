@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-ROS</title>
+
+    <link rel="stylesheet" href="styleP.css">
+   
+
+</head>
+<body>
+
+    <nav>
+        <div class="menu">
+            <ul>
+                <li><a href="#">
+                    <img src="download.png" alt="" class="logo">
+                </a></li>
+                <li><a href="#">Search</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Sign Up</a></li>
+                <li><a href="#">Log In</a></li>
+            </ul>
+        </div>
+    </nav>
+
+        
+
+
+    <div class="banner">
+        
+        <div class="img_container">
+            <img src="pfp.jpg" alt="me" width="200" height="200">
+            <h2>Username</h2>
+
+        </div>
+    </div>
+    
+    <div class="AnT">
+    <h1 id="abt">About</h1>
+
+</div>
+
+
+    <div class="about_container">
+        
+        <div class="ab1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consequatur, at soluta aut nobis aspernatur mollitia, totam iste eos, ex unde voluptates voluptas magnam distinctio harum saepe quod officia culpa!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consequatur, at soluta aut nobis aspernatur mollitia, totam iste eos, ex unde voluptates voluptas magnam distinctio harum saepe quod officia culpa!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consequatur, at soluta aut nobis aspernatur mollitia, totam iste eos, ex unde voluptates voluptas magnam distinctio harum saepe quod officia culpa!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consequatur, at soluta aut nobis aspernatur mollitia, totam iste eos, ex unde voluptates voluptas magnam distinctio harum saepe quod officia culpa!orem ipsum dolor sit amet consectetur adipisicing elit. Sed consequatur, at soluta aut nobis aspernatur mollitia, totam iste eos, ex unde voluptates voluptas magnam distinctio harum saepe quod officia culpa!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consequatur, at soluta aut nobis aspernatur mollitia, totam iste eos, ex unde voluptates voluptas magnam distinctio harum saepe quod officia culpa!Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+        <div class="ab2">
+            <ul>
+                <li>Female</li>
+                <li>She/her</li>
+                <li>E-girl</li>
+                <li>Not a catfish</li>
+                <li>Mommy</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="link_container">
+        <a href="url"><img src="steam.png" alt="Steam" ></a>
+        <a href="url"><img src="battle.png" alt="Battle.net"></a>
+        <a href="url"><img src="discord.png" alt="Discord" ></a>
+        <a href="url"><img src="riot.png" alt="riot" ></a>
+        <a href="url"><img src="insta.png" alt="Instagram"></a>
+    
+    
+    </div>
+
+    <h1 id="rp">Recently played</h1>
+    <div class="games_container">
+        
+      <div class="games">
+        <img src="valorant.jpg" alt="Valorant">
+        <img src="amongus.jpg" alt="amongus">
+        <img src="LOL.jpg" alt="League of legends">
+        <img src="minecraft.png" alt="minecraft">
+        <img src="overwatch.jpg" alt="Overwatch">
+        <img src="elden.jpg" alt="Elden ring">
+        
+    </div>
+    </div>
+    
+
+    <div class="showcase_container"><!-- silder  || start-->
+        <div class="showcase">       <!-- sildes-->
+            
+           <!-- <img src="capy.png" alt="showcase img">-->
+           <!-- radio button start-->
+           <input type="radio" name="radio-btn" id="radio1">
+           <input type="radio" name="radio-btn" id="radio2">
+           <input type="radio" name="radio-btn" id="radio3">
+           <input type="radio" name="radio-btn" id="radio4">
+               <!-- radio button edn-->
+                <!-- slide images start-->
+            <div class="slide first">
+                <img src="capy.png" alt="showcase img">
+            </div>
+
+            <div class="slide">
+                <img src="sc2.jpg" alt="showcase img">
+            </div>
+
+            <div class="slide">
+                <img src="sc3.jpg" alt="showcase img">
+            </div>
+
+            <div class="slide">
+                <img src="capy.png" alt="showcase img">
+            </div>
+            <!-- slide images end-->
+             <!-- auto- nav start-->
+            <div class="navigation_auto">
+                <div class="auto_btn1"></div>
+                <div class="auto_btn2"></div>
+                <div class="auto_btn3"></div>
+                <div class="auto_btn4"></div>
+            </div>
+             <!-- auto- nav end-->
+        </div>
+          <!-- manual nav start-->
+            <div class="navigation_manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+          <!-- manual nav end-->
+
+    </div>
+    <!-- image slider end-->
+
+    <script type="text/javascript">
+        var counter=1;
+
+        setInterval(function(){
+            document.getElementById('radio'+counter).checked=true;
+            counter++;
+            if(counter>4){
+                counter=1;
+            }
+
+        },5000);
+    </script>
+
+
+
+
+
+
+    <div class="media_container">
+        <div class="heading">
+            <h3>Photos</h3>
+        </div>
+       <div class="box">
+        <div class="dream"><!-- column1-->
+            <img src="m1.jpg" alt="">
+            <img src="m2.jpg" alt="">
+            <img src="m3.jpg" alt="">
+            <img src="m4.jpg" alt="">
+            <img src="m5.jpg" alt="">
+        </div>
+        <div class="pop">
+            <span>&times;</span>
+            <img src="m1.jpg" alt="">
+        </div>
+
+
+
+        <div class="dream"> <!-- column2-->
+            <img src="m6.jpg" alt="">
+            <img src="m7.jpg" alt="">
+            <img src="m8.jpg" alt="">
+            <img src="m9.jpg" alt="">
+            <img src="m10.jpg" alt="">
+        </div>
+        
+
+        <div class="dream"> <!-- column3-->
+            <img src="m5.jpg" alt="">
+            <img src="m2.jpg" alt="">
+            <img src="m4.jpg" alt="">
+            <img src="m1.jpg" alt="">
+            <img src="m3.jpg" alt="">
+        </div>
+
+        <script>
+            document.querySelectorAll('.dream img').forEach(image=>{
+               image.onclick=() =>{
+                document.querySelector('.pop').style.display='block';
+                document.querySelector('.pop img').src=image.getAttribute('src');
+               }
+
+            });
+
+            document.querySelector('.pop span').onclick=()=>{
+                document.querySelector('.pop').style.display='none';
+            }
+        </script>
+
+
+
+
+
+       </div>   
+
+           
+    </div>
+  
+
+    
+</body>
+</html>
