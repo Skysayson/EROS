@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+*{
+    font-family: 'Oxygen', sans-serif;
+    color: white;
+    margin: 0px;
+}
+
+body{
+    background-color: black;
+    /* background-color: gray; */
+    background-image:
+        linear-gradient(rgba(0, 0, 0, .850), rgba(0, 0, 0, 1)),
+        url(backgroundthingy.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+nav{
+    background-color: rgb(22, 22, 22); 
+    /* padding: 1.5vh; */
+    padding-left: 1.5vh;
+    padding-right: 1.5vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    width: 100%;
+    position: fixed;
+    font-weight: bold;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    /* flex-direction: row; */
+    padding-left: 0px;
+    padding-right: 0px;
+    align-items: center;
+    justify-content: start;
+}
+
+nav ul li a .logo{
+    width: 95px;
+    padding-left: 1vh;
+    padding-right: 4vh;
+}
+
+nav ul li{
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+
+nav ul li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.rest-of{
+    /* padding-top: 60px;*/ 
+    /* ^^ exact space from top*/
+
+    padding-top: 125px;
+}
+
+.banner{
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner img{
+    border-radius: 15px;
+    width: 155vh;
+    height: 39vh;
+    /* width: 1500px; */
+    /* height: 375px; */
+    background-color: white;
+}
+
+.services{
+    margin-top: 50px;
+    margin-left: 22vh;
+    margin-right: 22vh;
+}
+
+.services h2{
+    letter-spacing: 1px;
+}
+
+.gamelist{
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    overflow-x: auto;
+    max-height: 25vh;
+}
+
+.gamelist div{
+    /* width: 310px; */
+    min-width: 20vh;
+    padding: 0.3vh;
+}
+
+.gamelist div img{
+    /* width: 175px; */
+    /* height: 250px; */
+    width: 18vh;
+    border-radius: 15px;
+}
+
+.players{
+    margin-top: 55px;
+    margin-left: 22vh;
+    margin-right: 22vh;
+}
+
+.playerlist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.players h2{
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+}
+
+.players div{
+    padding: 1vh;
+    margin-bottom: 4vh;
+}
+
+.players div img{
+    width: 35vh;
+    height: 25vh;
+    border-radius: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.players h3{
+    padding-top: 0.5vh;
+    margin-left: 3vh;
+}
+
